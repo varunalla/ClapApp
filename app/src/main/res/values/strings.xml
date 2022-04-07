@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ClapApp</string>
+    <string name="clap_count">
+        Clap Count</string>
+    <string name="clap_count_val">
+        0</string>
+</resources>
