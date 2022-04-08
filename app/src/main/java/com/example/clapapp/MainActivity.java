@@ -96,6 +96,8 @@ public class MainActivity extends AppCompatActivity  implements SensorEventListe
     public void onSensorChanged(SensorEvent event) {
         TextView clap_count = findViewById(R.id.clap_count);
         System.out.println("Sensor event "+event.sensor.getName()+" "+ event.values[0]);
+        TextView prox_val=findViewById(R.id.proxim_val);
+        prox_val.setText(""+event.values[0]);
         if (event.values[0] == 0) {
             //increment Clap
             clapCount++;

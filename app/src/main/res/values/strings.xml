@@ -4,4 +4,10 @@
         Clap Count</string>
     <string name="clap_count_val">
         0</string>
+    <string name="proximity_label">
+        Proximity Sensor Reading:
+    </string>
+    <string name="proximity_val">
+        0.0
+    </string>
 </resources>
